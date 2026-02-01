@@ -27,7 +27,7 @@ $type-size-2xl: $type-base-size * math.pow($type-scale-ratio, 4);  // 42px (disp
 // Content measure (optimal line length for reading)
 $content-measure: 70ch;
 $content-measure-narrow: 60ch;
-$content-measure-wide: 80ch;
+$content-measure-wide: 100ch;
 
 // Font stacks
 $font-sans: "Source Sans 3", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;

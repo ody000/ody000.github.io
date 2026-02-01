@@ -1,0 +1,24 @@
+{%- comment -%}
+Usage example:
+{% include project.html title="Project Title" image="/assets/img/your-image.jpg" alt="Alt text" description="Short description for the project." %}
+{%- endcomment -%}
+
+<article class="project-card">
+  <figure class="project-figure">
+    {% if include.image %}
+    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: include.title }}" class="img-fluid" />
+    {% endif %}
+  </figure>
+
+  <div class="project-body">
+    {% if include.title %}
+      <h3 class="project-title">{{ include.title }}</h3>
+    {% endif %}
+
+    {% if include.description %}
+    <div class="project-description">
+      {{ include.description }}
+    </div>
+    {% endif %}
+  </div>
+</article>

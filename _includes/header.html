@@ -46,14 +46,7 @@
             </a>
           </li>
 
-          <!-- Blog -->
-          <li class="nav-item {% if page.permalink == '/blog/' or page.layout == 'post' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-              {%- if page.permalink == '/blog/' or page.layout == 'post' -%}
-              <span class="visually-hidden">(current)</span>
-              {%- endif -%}
-            </a>
-          </li>
+
 
           <!-- Other pages -->
           {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -90,7 +83,7 @@
           {% endfor -%}
 
           <li class="nav-item">
-            <a class="nav-link" href="/assets/pdf/CV.pdf">CV </a>
+            <a class="nav-link" href="/assets/pdf/CV.pdf">Resume/CV</a>
           </li>
         </ul>
       </div>

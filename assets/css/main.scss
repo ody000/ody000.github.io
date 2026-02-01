@@ -17,6 +17,6 @@
 // Page-specific
 @use "about" as *;
 @use "publications" as *;
-@use "blog" as *;
+// blog styles removed - writings use general layouts
 @use "toc" as *;
 @use "print" as *;

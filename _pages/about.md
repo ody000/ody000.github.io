@@ -2,29 +2,29 @@
 layout: about
 title: About
 permalink: /
-description: Yoonho Lee - Ph.D. candidate at Stanford CS researching text-based knowledge representation, reward modeling, and learning from direct experience. Advised by Chelsea Finn at IRIS Lab, SAIL, CRFM. Research supported by OpenAI and KFAS fellowships.
+description: Ziqi Shen - Sc.B. Cognitive Neuroscience and Computer Science Candidate at Brown University.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic2.jpeg
 
 news: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true
+show_scholar: false
+show_twitter: false
+show_linkedin: true
 ---
 
-I'm a final-year PhD student at Stanford CS, advised by [Chelsea Finn](https://ai.stanford.edu/~cbfinn/). My research focuses on building systems that learn from text directly and continually.
+Occasionally, I will be referred to as Odysseus or Ody, which are my other names.
 
-Scalar rewards collapse feedback into a single number. A score gives a verdict, not a diagnosis.
-What went wrong, why, and what to change is often better expressed in text.
+I am currently pursuing a Sc.B. degree in Cognitive Neuroscience and Computer Science at Brown University. My career goal is to develop algorithmically robust brain-computer interface systems that decode and preserve declarative memory. I am developing methodological foundations for this goal in systems neuroscience and machine learning practices against high-dimensional neural signals.
 
-In many settings, we already have access to this kind of feedback: natural-language corrections, pairwise comparisons with explanations, stack traces, and reflections on what worked.
-Now that models can read text well enough to use it for decision-making, I believe we can do better than learning from scalar rewards alone.
-My research develops methods that leverage such structured feedback to enable models to continually improve.
+As a double life, I play badminton at the professional level.
 
-The best way to learn more about the technical side of these ideas is to read my [blog post](https://ai.stanford.edu/blog/feedback-descent/) or the selected papers below.
+<!-- The best way to learn more about the technical side of these ideas is to read my [blog post](https://ai.stanford.edu/blog/feedback-descent/) or the selected papers below. -->
 
-<div class="selected-papers">
+<!-- <div class="selected-papers">
 <div class="paper" itemscope itemtype="https://schema.org/ScholarlyArticle" data-year="2025">
 <span class="paper-year">2025</span>
 <div class="paper-content">
@@ -42,9 +42,9 @@ Operationalizes the core text optimization loop, accumulating "why better" signa
 </div>
 </div>
 {% include paper_schema.html title="Feedback Descent: Open-Ended Text Optimization via Pairwise Comparison" authors="Yoonho Lee, Joseph Boen, Chelsea Finn" year="2025" url="https://arxiv.org/abs/2511.07919" venue="preprint" %}
-</div>
+</div> -->
 
-<div class="paper" itemscope itemtype="https://schema.org/ScholarlyArticle" data-year="2026">
+<!-- <div class="paper" itemscope itemtype="https://schema.org/ScholarlyArticle" data-year="2026">
 <span class="paper-year">2026</span>
 <div class="paper-content">
 <a main-paper-link href="https://arxiv.org/abs/2510.02263" itemprop="url">
@@ -129,4 +129,4 @@ My name (윤호) is pronounced like 'you-know' said quickly (with stress on 'you
 
 Feel free to reach out via [email](mailto:yoonho@cs.stanford.edu) if you'd like to chat. I'm on the 2026-27 academic and industry job markets, and open to collaborations that align with my research interests.
 
-</div>
+</div> -->

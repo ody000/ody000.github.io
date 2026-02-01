@@ -2,7 +2,7 @@
   "name": "yoonholee-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Academic personal website for Yoonho Lee",
+  "description": "Academic personal website for Ziqi Shen",
   "main": "purgecss.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

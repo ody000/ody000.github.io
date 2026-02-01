@@ -7,7 +7,7 @@ const urlsToCache = [
   '/',
   '/assets/css/main.css',
   '/assets/js/common.js',
-  '/assets/img/prof_pic.jpg'
+  '/assets/img/prof_pic2.jpeg'
 ];
 
 // Install event - cache key resources
